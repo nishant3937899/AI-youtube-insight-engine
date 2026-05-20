@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ask a Question</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h2><-Paste YouTube Video Link Below-> </h2>
+
+        <form action="/" method="POST">
+            <input type="text" name="urls" placeholder="Url" required>
+            <input type="submit" value="Get Response">
+        </form>
+
+        
+        <div class="answer-box">
+            <h3>Response</h3>
+            {% if response %}
+                <p>{{ response }}  </p>
+            
+                
+            {% else %}
+                <p>  </p>
+            {% endif %}
+            
+
+            
+        </div>
+        
+    </div>
+</body>
+</html>
