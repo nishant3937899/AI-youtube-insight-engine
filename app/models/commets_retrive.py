@@ -1,7 +1,7 @@
 import pandas as pd
 from googleapiclient.discovery import build
 
-API_KEY = 'AIzaSyDmH1-R0RSWrNpehkezzc1YS6N5CynulAU'  
+API_KEY = 'Paste Your API Key Here'  
 
 def get_comments(vid_id:str):
     url = vid_id
