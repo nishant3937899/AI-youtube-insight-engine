@@ -4,7 +4,8 @@ An end-to-end NLP and Large Language Model application that extracts YouTube com
 
 ## 👁️ Demo
 
-![YouTube Insight Engine Demo](path/to/your/demo.gif)
+![YouTube Insight Engine Demo](https://github.com/nishant3937899/AI-youtube-insight-engine/blob/6ec3d4df90a9d654d66a8a7cd026d6b4ce82ed7c/demo.gif)
+
 *(A quick look at the engine analyzing a YouTube video's comments in real-time.)*
 
 ## 🚀 Features
