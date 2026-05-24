@@ -36,28 +36,28 @@ Before running the project, ensure you have the following installed:
 ## ⚙️ Installation & Setup
 
 **1. Clone the repository**
-\`\`\`bash
+```bash
 git clone https://github.com/nishant3937899/AI-youtube-insight-engine.git
 cd AI-youtube-insight-engine
-\`\`\`
+```
 
 **2. Set up a virtual environment (Recommended)**
-\`\`\`bash
+```bash
 python -m venv youtubenv
-source youtubenv/bin/activate  # On Windows use: youtubenv\Scripts\activate
-\`\`\`
+youtubenv\Scripts\activate
+```
 
 **3. Install dependencies**
-\`\`\`bash
+```bash
 pip install -r requirements.txt
 pip install google-api-python-client transformers ollama
-\`\`\`
+```
 
 **4. Pull the local LLM via Ollama**
 Ensure the Ollama application is running, then pull the Llama 3.2 model:
-\`\`\`bash
+```bash
 ollama pull llama3.2
-\`\`\`
+```
 
 **5. Configure the API Key**
 Navigate to `app/models/commets_retrive.py` and replace the placeholder `API_KEY` with your actual YouTube Data API key. 
@@ -65,9 +65,9 @@ Navigate to `app/models/commets_retrive.py` and replace the placeholder `API_KEY
 ## 💻 Usage
 
 Start the Flask application by running:
-\`\`\`bash
+```bash
 python run.py
-\`\`\`
+```
 * Open your browser and navigate to `http://127.0.0.1:5000`.
 * Paste a YouTube video URL into the input field and click "Get Response".
 * The engine will process the comments and display the LLM-generated sentiment summary in the response box.
